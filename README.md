@@ -6,10 +6,10 @@ This work is to show a hint of my experience with automation using selenium web 
 2.Python version 3.6
 3.Chrome driver:Downloaded it and sent the path to scripts
 4.In Project interpreter 
- -Pip 19.0.3
- -Selenium 3.141.0
- -setuptools 40.8.0
- -Virtualenv 16.7.4
+ - Pip 19.0.3
+ - Selenium 3.141.0
+ - setuptools 40.8.0
+ - Virtualenv 16.7.4
  
  ## apply Page-Object-Pattern
  1.Build a base page, which will be inherited by all the other pages. Here we will keep all the common code specific to selenium.
