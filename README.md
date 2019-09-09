@@ -14,6 +14,8 @@ This work is to show a hint of my experience with automation using selenium web 
  ## apply Page-Object-Pattern
  1. Build a base page, which will be inherited by all the other pages. Here we will keep all the common code specific to selenium.
  2. Implemented the Homepage, Registration_Page, Login_Page and Search_Page.
+    -selenium-python-project/images/TestProject.png
+    
  3. Created a test template page -> inherited by all the tests. It’s like a blueprint of a test.
  4. Created TestsScripts for Homepage, Registration_Page, Login_Page and Search_Page.
  5. Created Test Runner(A test runner is the library or tool that picks up an assembly (or a source code directory) that contains unit tests, and a bunch of settings, and then executes them and writes the test results to the console or log files.) run tests sequentially using simple TextTestRunner
