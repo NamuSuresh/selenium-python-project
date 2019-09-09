@@ -27,5 +27,8 @@ class HomePage(BasePage):
     def search(self):
         self._driver.find_element_by_name(HomePage.SEARCH).click()
 
+    def check_page_source(self, value):
+        return value in self._driver.page_source
+
 
 
