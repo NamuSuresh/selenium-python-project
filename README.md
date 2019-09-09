@@ -15,7 +15,7 @@ This work is to show a hint of my experience with automation using selenium web 
  1. Build a base page, which will be inherited by all the other pages. Here we will keep all the common code specific to selenium.
  2. Implemented the Homepage, Registration_Page, Login_Page and Search_Page.
     ❮img src="images/TestProject.png" width="100" ❯
-    ![Image of TestProject flow](images/TestProject.png)
+   
     
  3. Created a test template page -> inherited by all the tests. It’s like a blueprint of a test.
  4. Created TestsScripts for Homepage, Registration_Page, Login_Page and Search_Page.
