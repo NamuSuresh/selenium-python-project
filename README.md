@@ -14,9 +14,19 @@ This work is to show a hint of my experience with automation using selenium web 
  ## apply Page-Object-Pattern
  1. Build a base page, which will be inherited by all the other pages. Here we will keep all the common code specific to selenium.
  2. Implemented the Homepage, Registration_Page, Login_Page and Search_Page.
-   <img src="https://github.com/NamuSuresh/selenium-python-project/blob/master/images/TestProject.png" width="256" height="256" title="Github Logo">  
+   <p align="center"> <img src="https://github.com/NamuSuresh/selenium-python-project/blob/master/images/TestProject.png" width="256" height="256" title="Page Object Pattern"> </p>
+   <p align="center"> <img src="https://github.com/NamuSuresh/selenium-python-project/blob/master/images/Home_Page.png" width="256" height="256" title="Page Object Pattern"> </p>
+   
  3. Created a test template page -> inherited by all the tests. It’s like a blueprint of a test.
  4. Created TestsScripts for Homepage, Registration_Page, Login_Page and Search_Page.
+   <p align="center"> <img src="https://github.com/NamuSuresh/selenium-python-project/blob/master/images/Test_home_page.png" width="256" height="256" title="Page Object Pattern"> </p>
+   <p align="center"> <img src="https://github.com/NamuSuresh/selenium-python-project/blob/master/images/Test_Result_Home_Page.png" width="256" height="256" title="Page Object Pattern"> </p>
+   
  5. Created Test Runner(A test runner is the library or tool that picks up an assembly (or a source code directory) that contains unit tests, and a bunch of settings, and then executes them and writes the test results to the console or log files.) run tests sequentially using simple TextTestRunner
- 
+ <p align="center"> <img src="https://github.com/NamuSuresh/selenium-python-project/blob/master/images/Test_Runner.png" width="256" height="256" title="Page Object Pattern"> </p>
+   
+  <p align="center"> <img src="https://github.com/NamuSuresh/selenium-python-project/blob/master/images/Test_Result1.png" width="256" height="256" title="Page Object Pattern"> </p>
+  
+   <p align="center"> <img src="https://github.com/NamuSuresh/selenium-python-project/blob/master/images/Test_Result2.png" width="256" height="256" title="Page Object Pattern"> </p>
+
  
